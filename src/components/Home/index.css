@@ -1,0 +1,370 @@
+/* for small and medium devices */
+@media screen and (max-width: 576px) {
+  .home-bg-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .home-banner-head {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "open sans";
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .social-media-icons {
+    font-size: 25px;
+    margin-right: 15px;
+    color: rgb(78, 78, 78);
+    margin-top: 5px;
+  }
+  .home-banner-card {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+    padding-top: 5px;
+  }
+  .home-banner-content {
+    margin-right: 0px;
+    padding-left: 15px;
+  }
+  .home-banner-content p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .date-picker {
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 70px;
+    font-size: 11px;
+  }
+  .check-in-date-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+  }
+  .arrow-icon {
+    margin-top: 2px;
+    margin-left: 0px;
+  }
+  .inc-dec-btn-icon {
+    font-size: 18px;
+    margin-top: 3px;
+  }
+  .inc-dec-btn {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .inc-dec-btn-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .room-count {
+    font-size: 18px;
+  }
+  .home-banner-booking-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 6px;
+    position: relative;
+    bottom: 70px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  }
+  .booking-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-banner-bg-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .booking-btn {
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: rgba(13, 101, 133, 0.861);
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  hr {
+    height: 30px;
+  }
+  .button-link {
+    text-decoration: none;
+  }
+
+  .home-banner-img {
+    min-width: 60%;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 991px) {
+  .home-bg-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .home-banner-head {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "open sans";
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .social-media-icons {
+    font-size: 25px;
+    margin-right: 15px;
+    color: rgb(78, 78, 78);
+    margin-top: 5px;
+  }
+  .home-banner-card {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+    padding-top: 5px;
+  }
+  .home-banner-content {
+    margin-right: 0px;
+    padding-left: 15px;
+  }
+  .home-banner-content p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .date-picker {
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 70px;
+    font-size: 11px;
+  }
+  .check-in-date-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+  }
+  .arrow-icon {
+    margin-top: 2px;
+    margin-left: 0px;
+  }
+  .inc-dec-btn-icon {
+    font-size: 18px;
+    margin-top: 3px;
+  }
+  .inc-dec-btn {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .inc-dec-btn-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .room-count {
+    font-size: 18px;
+  }
+  .home-banner-booking-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 6px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  }
+  .booking-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-banner-bg-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .booking-btn {
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: rgba(13, 101, 133, 0.861);
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  hr {
+    height: 30px;
+  }
+  .button-link {
+    text-decoration: none;
+  }
+
+  .home-banner-img {
+    min-width: 60%;
+    max-width: 70%;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* for large devices */
+@media screen and (min-width: 992px) {
+  .home-bg-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-banner-head {
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "open sans";
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 55px;
+  }
+  .social-media-icons {
+    font-size: 32px;
+    margin-right: 15px;
+    color: rgb(78, 78, 78);
+  }
+  .home-banner-card {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    width: 100%;
+  }
+  .home-banner-content {
+    margin-right: 65px;
+  }
+  .date-picker {
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 70px;
+    font-size: 11px;
+  }
+  .check-in-date-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+  }
+  .arrow-icon {
+    margin-top: 2px;
+    margin-left: 0px;
+  }
+  .inc-dec-btn-icon {
+    font-size: 18px;
+    margin-top: 3px;
+  }
+  .inc-dec-btn {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .inc-dec-btn-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .room-count {
+    font-size: 18px;
+  }
+  .home-banner-booking-card {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 6px;
+    position: relative;
+    bottom: 70px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  }
+  .booking-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-banner-bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 25px;
+  }
+  .booking-btn {
+    width: 160px;
+    height: 55px;
+    color: #fff;
+    background-color: rgba(13, 101, 133, 0.861);
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    margin-left: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  hr {
+    height: 70px;
+  }
+  .button-link {
+    text-decoration: none;
+  }
+}

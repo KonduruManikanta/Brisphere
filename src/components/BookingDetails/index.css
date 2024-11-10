@@ -1,0 +1,450 @@
+@media screen and (max-width: 576px) {
+  .room-booking-details-bg-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60vh;
+    max-height: 100px;
+  }
+  .booking-banner-card {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    min-height: 250px;
+    max-height: 350px;
+    padding: 10px;
+    padding-top: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .name-mail-number {
+    width: 165px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    height: 30px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #fff;
+    padding-left: 10px;
+  }
+  .adult-child-input {
+    width: 80px;
+    margin-right: 5px;
+    height: 30px;
+    margin-top: 0px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 13px;
+    padding-left: 10px;
+  }
+  .booking-form-container {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+  .payment-text {
+    margin: 0px 8px;
+    font-size: 19px;
+  }
+  .rupee-icon {
+    font-size: 28px;
+  }
+  .rupee-icon-done {
+    font-size: 18px;
+  }
+  .arrow-icon-right {
+    font-size: 15px;
+    height: 35px;
+    background-color: rgb(7, 114, 131);
+    padding: 10px;
+    width: 70px;
+  }
+  .booking-done {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  .booking-done-cont {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-tick-icon {
+    font-size: 45px;
+    margin-right: 25px;
+  }
+  .order-contact-cont p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .order-contact-cont h3 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 15px;
+  }
+  .user-booking-details {
+    margin-top: 0px;
+  }
+  .user-booking-details p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 15px;
+  }
+  .user-booking-details h2 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  .booking-done-hr {
+    height: 100px;
+    margin-left: 10px;
+  }
+  .loading-view-cont {
+    background-color: rgb(240, 240, 240);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .error-msg {
+    color: red;
+    margin-top: 3px;
+    font-size: 11px;
+  }
+  .home-btn {
+    background-color: rgba(13, 101, 133, 0.861);
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 5px;
+    height: 30px;
+  }
+  .return-btn {
+    background-color: rgba(13, 101, 133, 0.861);
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 30px;
+  }
+  .click-to-pay-text {
+    font-size: 10px;
+    margin-left: 25px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 992px) {
+  .room-booking-details-bg-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60vh;
+    max-height: 100px;
+  }
+  .booking-banner-card {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    min-height: 200px;
+    max-height: 300px;
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .name-mail-number {
+    min-width: 45%;
+    max-width: 58%;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    height: 60px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #fff;
+    padding-left: 10px;
+  }
+  .adult-child-input {
+    width: 80px;
+    min-width: 22%;
+    max-width: 29%;
+    margin-right: 5px;
+    height: 60px;
+    margin-top: 0px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 13px;
+    padding-left: 10px;
+  }
+  .booking-form-container {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+  .payment-text {
+    margin: 0px 8px;
+    font-size: 19px;
+  }
+  .rupee-icon {
+    font-size: 28px;
+  }
+  .rupee-icon-done {
+    font-size: 18px;
+  }
+  .arrow-icon-right {
+    font-size: 15px;
+    height: 35px;
+    background-color: rgb(7, 114, 131);
+    padding: 10px;
+    width: 70px;
+  }
+  .booking-done {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 90%;
+    padding-top: 30px;
+  }
+  .booking-done-cont {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-tick-icon {
+    font-size: 45px;
+    margin-right: 25px;
+  }
+  .order-contact-cont p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .order-contact-cont h3 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 15px;
+  }
+  .user-booking-details {
+    margin-top: 0px;
+  }
+  .user-booking-details p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 15px;
+  }
+  .user-booking-details h2 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  .booking-done-hr {
+    height: 100px;
+    margin-left: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .loading-view-cont {
+    background-color: rgb(240, 240, 240);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .error-msg {
+    color: red;
+    margin-top: 3px;
+  }
+  .home-btn {
+    background-color: rgba(13, 101, 133, 0.861);
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 5px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .return-btn {
+    background-color: rgba(13, 101, 133, 0.861);
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 30px;
+    cursor: pointer;
+  }
+  .return-home-btn-cont {
+    margin-top: 25px;
+  }
+  .click-to-pay-text {
+    font-size: 11px;
+    margin-left: 25px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 993px) {
+  .room-booking-details-bg-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60vh;
+    max-height: 100px;
+  }
+  .booking-banner-card {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    min-height: 320px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .name-mail-number {
+    min-width: 40%;
+    max-width: 48%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    height: 60px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #fff;
+    padding-left: 15px;
+  }
+  .adult-child-input {
+    width: 20%;
+    margin-right: 5px;
+    height: 60px;
+    margin-top: 0px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  .booking-form-container {
+    width: 90%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+  .payment-text {
+    margin: 0px 8px;
+    font-size: 26px;
+  }
+  .rupee-icon {
+    font-size: 22px;
+  }
+  .arrow-icon-right {
+    font-size: 28px;
+    height: 55px;
+    background-color: rgb(7, 114, 131);
+    padding: 10px;
+    width: 70px;
+  }
+  .booking-done {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+  .booking-done-cont {
+    display: flex;
+    align-items: center;
+    height: 140px;
+  }
+  .right-tick-icon {
+    font-size: 85px;
+    margin-right: 25px;
+  }
+  .order-contact-cont p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .order-contact-cont h3 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .user-booking-details {
+    margin-top: 0px;
+  }
+  .user-booking-details p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .user-booking-details h2 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .booking-done-hr {
+    height: 100px;
+  }
+  .loading-view-cont {
+    background-color: rgb(240, 240, 240);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .error-msg {
+    color: red;
+    margin-top: 3px;
+  }
+  .home-btn {
+    background-color: rgba(13, 101, 133, 0.861);
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 5px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .return-btn {
+    background-color: rgba(13, 101, 133, 0.861);
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 30px;
+    cursor: pointer;
+  }
+  .click-to-pay-text {
+    font-size: 11px;
+    margin-left: 48px;
+    font-weight: 600;
+  }
+}
