@@ -45,7 +45,7 @@ const Discover = () => {
               className="user-logo-img"
             />
             <div>
-              <p className="user-name">Arjun Raghav</p>
+              <p className="user-name">Anand Solanki</p>
               <img
                 src="https://res.cloudinary.com/dhfhuqtqi/image/upload/v1729339222/e-commerce%20assignment/2d5f9291095d1210262f4a0d5f4c77e7_aodhh5.png"
                 alt="star-rating"
