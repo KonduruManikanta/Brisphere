@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="navbar-bg-cont">
       <Link to="/" className="website-name-link">
-        <h1 className="website-name">Brisphere</h1>
+        <h1 className="website-name">MK Travels</h1>
       </Link>
       <div className="navbar-sections">
         <p>Discover</p>
